@@ -5,8 +5,12 @@
 1. Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
 
 	* propTypes
+		* using `propTypes` is a way to make code more secure and bug-proof by checking that the correct type is being passed in for a prop.
 	* .map()
+		* The `.map()` method works against an array to makes changes to it an return an altered copy.
 	* setInterval and setTimeout
+		* `setInterval` runs the enclosed code at a specific interval determined in miliseconds.
+		* `setTimeout` runs the enclosed code after a specific time delay determined in miliseconds.
 
 
 2. Fork and clone this repo.  When you need to commit use the following commands.

@@ -1,0 +1,189 @@
+.App {
+
+}
+
+hr {
+  border-width: 0;
+  border-top: 1px solid #dcdcdc;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #181818;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+.body {
+  background-color: whitesmoke;
+  /*align-items: center; used margin auto instead of this*/
+  color: #181818;
+  font-size: .9em;
+}
+
+/*************
+NavBar
+*************/
+
+.navBar {
+  height: 75px;
+  background-color: white;
+  border-bottom: 1px solid #dcdcdc;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 100px;
+}
+
+.logo {
+  font-family: "Brush Script MT", cursive;
+  font-size: 2.5em;
+  font-weight: 100;
+}
+
+.search input {
+  display: none;
+}
+
+.profileIcon {
+
+}
+
+.profileIcon img {
+  height: 30px;
+}
+
+/*************
+Card
+*************/
+
+.card {
+  margin-bottom: 10px;
+}
+
+/*************
+AuthorBar
+*************/
+
+.authorBar {
+  display: flex;
+  align-items: center;
+}
+
+.userImage {
+  /*padding: 10px;*/
+  border-radius: 50%;
+  border: 1px solid #dcdcdc;
+  width: 40px;
+  flex: 1;
+  margin: 0 1em;
+}
+
+.userAndLocation {
+  flex: 10;
+  margin: 1em 0;
+}
+
+.userAndLocation h4 {
+  display: inline;
+}
+
+.location {
+  /*font-size: .9em;*/
+}
+
+.date {
+  flex: 5;
+  text-align: right;
+  color: #c4c4c4;
+  /*font-size: .9em;*/
+  margin-right: 2em;
+}
+
+/*************
+Social
+*************/
+
+.social {
+  padding: 1em;
+}
+
+.likes {
+  font-weight: bold;
+}
+
+.likes, .caption, .comment {
+  line-height: 1.5em;
+}
+
+.comment a {
+  margin-right: .25em;
+}
+
+.comments {
+  margin-bottom: .75em;
+}
+
+/*************
+New Comment
+*************/
+
+.newComment {
+  margin-top: .75em;
+  color: #ababab;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.newCommentFlex1 img, .newCommentFlex3 img  {
+  max-height: 1em;
+}
+
+.newCommentFlex1, .newCommentFlex3 {
+  flex: 1;
+}
+
+.newCommentFlex2 {
+  flex: 22;
+}
+
+.newCommentFlex3 {
+  text-align: right;
+}
+
+/*************
+Media Queries
+*************/
+
+@media (min-width: 650px) {
+  .body {
+    display: flex;
+    flex-direction: column;
+  }
+  .card {
+    width: 600px;
+    background-color: white;
+    border-radius: 4px;
+    border: 1px solid #dcdcdc;
+    margin: 65px auto 0 auto;
+  }
+  .search input {
+    display: inline;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+    box-shadow: none;
+    padding: 7px 5px;
+  }
+}
